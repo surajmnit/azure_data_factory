@@ -1,0 +1,9 @@
+{
+	"name": "datafactoryinterviews",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "8c681440-1a65-4b0a-842d-9d8d940f666f",
+		"tenantId": "f44a3727-e9d9-41da-9738-82fb0b528b48"
+	}
+}
