@@ -5,14 +5,26 @@
 		"factoryName": {
 			"value": "datafactoryinterviews"
 		},
+		"adls_ls_adventurework_accountKey": {
+			"value": ""
+		},
 		"cardata_connectionString": {
 			"value": ""
+		},
+		"AzureSqlDatabase_adventure_properties_typeProperties_server": {
+			"value": "interviewservern.database.windows.net"
+		},
+		"AzureSqlDatabase_adventure_properties_typeProperties_database": {
+			"value": "adventureworks"
 		},
 		"OutpurSQL_properties_typeProperties_server": {
 			"value": "interviewservern.database.windows.net"
 		},
 		"OutpurSQL_properties_typeProperties_database": {
 			"value": "inerviewdatabase"
+		},
+		"adls_ls_adventurework_properties_typeProperties_url": {
+			"value": "https://adlsadventureworksd.dfs.core.windows.net/"
 		}
 	}
 }
