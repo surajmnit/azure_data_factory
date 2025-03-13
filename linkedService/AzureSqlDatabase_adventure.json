@@ -1,0 +1,14 @@
+{
+	"name": "AzureSqlDatabase_adventure",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "interviewservern.database.windows.net",
+			"database": "adventureworks",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SystemAssignedManagedIdentity"
+		}
+	}
+}
