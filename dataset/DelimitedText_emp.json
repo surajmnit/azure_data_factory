@@ -1,0 +1,60 @@
+{
+	"name": "DelimitedText_emp",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "cardata",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "Employee.csv",
+				"container": "employee"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Education",
+				"type": "String"
+			},
+			{
+				"name": "JoiningYear",
+				"type": "String"
+			},
+			{
+				"name": "City",
+				"type": "String"
+			},
+			{
+				"name": "PaymentTier",
+				"type": "String"
+			},
+			{
+				"name": "Age",
+				"type": "String"
+			},
+			{
+				"name": "Gender",
+				"type": "String"
+			},
+			{
+				"name": "EverBenched",
+				"type": "String"
+			},
+			{
+				"name": "ExperienceInCurrentDomain",
+				"type": "String"
+			},
+			{
+				"name": "LeaveOrNot",
+				"type": "String"
+			}
+		]
+	}
+}
