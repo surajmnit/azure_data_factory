@@ -15,6 +15,10 @@
 			"type": "secureString",
 			"metadata": "Secure string for 'connectionString' of 'cardata'"
 		},
+		"AzureMySql_connectionString": {
+			"type": "secureString",
+			"metadata": "Secure string for 'connectionString' of 'AzureMySql'"
+		},
 		"AzureSqlDatabase_adventure_properties_typeProperties_server": {
 			"type": "string",
 			"defaultValue": "interviewservern.database.windows.net"
@@ -67,6 +71,9 @@
 					},
 					"cardata_connectionString": {
 						"value": "[parameters('cardata_connectionString')]"
+					},
+					"AzureMySql_connectionString": {
+						"value": "[parameters('AzureMySql_connectionString')]"
 					},
 					"AzureSqlDatabase_adventure_properties_typeProperties_server": {
 						"value": "[parameters('AzureSqlDatabase_adventure_properties_typeProperties_server')]"

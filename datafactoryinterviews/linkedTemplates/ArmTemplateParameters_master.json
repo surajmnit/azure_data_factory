@@ -11,6 +11,9 @@
 		"cardata_connectionString": {
 			"value": ""
 		},
+		"AzureMySql_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabase_adventure_properties_typeProperties_server": {
 			"value": "interviewservern.database.windows.net"
 		},
